@@ -1,0 +1,38 @@
+body{
+    margin:0;
+}
+
+.header{
+    display:flex;
+    background-color: #1f2937;
+    padding-left: 96px;
+    padding-right:96px;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    margin-right:auto;
+    color:#F9FAF8;
+    font-size: 24px;
+}
+.logo img {
+    width: 48px;
+    height: 48px;
+}
+.header ul{
+    display:flex;
+    gap:16px;
+
+    list-style: none;
+}
+.header button{
+    all:unset;
+    color:#E5E7EB;
+}
+
+.hero{
+    display:flex;
+}
