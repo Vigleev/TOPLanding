@@ -35,4 +35,42 @@ body{
 
 .hero{
     display:flex;
+    padding:96px;
+    gap:24px;
+    background-color: #1f2937;
+}
+.hero img{
+    order:1;
+    height:198px;
+}
+.hero .content{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.hero .content .main{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.hero .content .secondary{
+    color:#E5E7EB;
+    font-size: 18px;
+}
+.hero .content .secondary-call{
+    color:silver;
+}
+
+.hero .content button{
+    width: 192px;
+
+    background-color: #3882F6;
+    border:none;
+    border-radius: 12px;
+
+    padding:8px;
+    color:#E5E7EB;
+
+    font-size: large;
+    font-weight: bolder;
 }
