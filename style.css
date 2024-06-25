@@ -108,8 +108,8 @@ body{
     gap:16px;
     text-align: center;
 }
-.card .card-caption {
-
+.card-caption {
+    font-weight: bold;
 }
 .card img {
     width:192px;
