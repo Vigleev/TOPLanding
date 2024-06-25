@@ -63,7 +63,8 @@ body{
     color:silver;
 }
 
-.hero .content button{
+.hero .content .link{
+    all:unset;
     width: 192px;
 
     background-color: #3882F6;
@@ -75,9 +76,11 @@ body{
 
     font-size: large;
     font-weight: bolder;
+    text-align: center;
 }
 .info {
     padding-top: 32px;
+    padding-bottom: 32px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -85,10 +88,11 @@ body{
 }
 
 .info-content{
+    
     display:flex;
-    justify-content: center;
-    gap:96px;
+    justify-content: space-between;
     flex-wrap:wrap;
+    width:100%;
     max-width: 1200px;
 }
 
@@ -103,7 +107,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    max-width: 200px;
+    max-width: 250px;
     gap:16px;
     text-align: center;
 }
@@ -116,5 +120,40 @@ body{
     border:4px solid;
     border-color:#3882F6;
     border-radius: 12px;
-    
+    object-fit: cover;
+}
+.quote {
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-content {
+    display:flex;
+    flex-direction: column;
+
+    max-width: 1200px;
+
+    padding-top: 32px;
+    padding-bottom:32px;
+    gap:16px;
+}
+
+.quote-itself {
+    font-size: 36px;
+    font-style:italic;
+}
+.credentials {
+    margin-left:auto;
+    font-size:24px;
+    font-weight: bolder;
+}
+.footer{
+    background-color: #1f2937;
+    color:#E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
